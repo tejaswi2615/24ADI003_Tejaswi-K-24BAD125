@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-print("Tejaswi K - 24BAD125")
+print("Tejaswi K- 24BAD125")
 df_health = pd.read_csv("diabetes.csv")
 
 #Inspect dataset
@@ -23,4 +23,3 @@ plt.boxplot(df_health['Age'])
 plt.title("Age Distribution")
 plt.ylabel("Age")
 plt.show()
-
