@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sn
 
-print("Mithra Ravi- 24BAD070")     
+print("Tejaswi K- 24BAD125")     
 # Load dataset
 df_ecom = pd.read_csv("data.csv", encoding="ISO-8859-1")
 
@@ -34,5 +34,6 @@ plt.title("Top 10 Products by Sales")
 plt.xlabel("Product")
 plt.ylabel("Sales")
 plt.show()
+
 
 
